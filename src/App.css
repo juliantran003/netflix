@@ -1,5 +1,8 @@
-.container {
+body {
   background-color: black;
+}
+
+.container {
   height: 100vw;
   width: 100vw;
   padding-left: 60px;
