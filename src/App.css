@@ -1,1 +1,51 @@
-/* Other rules */
+.container {
+  background-color: black;
+  height: 100vw;
+  width: 100vw;
+  padding-left: 60px;
+}
+
+.header {
+  width: auto;
+  height: auto;
+}
+
+.logo {
+  width: 100px;
+}
+
+.image {
+  width: 220px;
+}
+
+.imageBox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.subSection {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 15px;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 15px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
